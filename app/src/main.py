@@ -5,4 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 def handler():
+    """ This base endpoint returns the application health status """
     return {"status": "Healthy"}
