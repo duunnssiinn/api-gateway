@@ -6,5 +6,6 @@ app = FastAPI()
 @app.get("/")
 def handler():
     return {
-        "status": "Healthy"
+        "status": "Healthy",
+        "alive": True
     }
