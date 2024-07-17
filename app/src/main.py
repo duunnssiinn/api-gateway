@@ -5,4 +5,6 @@ app = FastAPI()
 
 @app.get("/")
 def handler():
-    return {"status": "Healthy"}
+    return {
+        "status": "Healthy"
+    }
